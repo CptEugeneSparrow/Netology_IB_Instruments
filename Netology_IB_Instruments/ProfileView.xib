@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Maijor" translatesAutoresizingMaskIntoConstraints="NO" id="EnW-5Z-0lm">
+                    <rect key="frame" x="5" y="69" width="100" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="G9C-lS-tOs"/>
+                        <constraint firstAttribute="width" constant="100" id="j8i-xB-LQq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Irina Shayk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bah-49-JnL">
+                    <rect key="frame" x="115" y="69" width="248" height="30"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="248" id="2k0-eC-oD6"/>
+                        <constraint firstAttribute="height" constant="30" id="mXd-ZP-59s"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 January 1986" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju9-qk-cUk">
+                    <rect key="frame" x="115" y="129" width="248" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="2RD-no-8Aw"/>
+                        <constraint firstAttribute="width" constant="248" id="56x-pi-0L5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WHN-3m-Uw9">
+                    <rect key="frame" x="10" y="259" width="373" height="554"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los Angeles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZH-VR-IpX">
+                    <rect key="frame" x="115" y="189" width="248" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="248" id="dt7-Pi-Fcr"/>
+                        <constraint firstAttribute="height" constant="30" id="pib-td-53T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WHN-3m-Uw9" secondAttribute="trailing" constant="10" id="2Gv-IK-bJf"/>
+                <constraint firstItem="ju9-qk-cUk" firstAttribute="leading" secondItem="EnW-5Z-0lm" secondAttribute="trailing" constant="10" id="3kA-IG-s4O"/>
+                <constraint firstItem="cZH-VR-IpX" firstAttribute="leading" secondItem="EnW-5Z-0lm" secondAttribute="trailing" constant="10" id="5C1-xa-lLn"/>
+                <constraint firstItem="bah-49-JnL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="CVu-Iw-H81"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="WHN-3m-Uw9" secondAttribute="bottom" constant="5" id="UHi-IC-LmM"/>
+                <constraint firstItem="bah-49-JnL" firstAttribute="leading" secondItem="EnW-5Z-0lm" secondAttribute="trailing" constant="10" id="Wph-8W-Kip"/>
+                <constraint firstItem="ju9-qk-cUk" firstAttribute="top" secondItem="bah-49-JnL" secondAttribute="bottom" constant="30" id="ZWe-7o-jQk"/>
+                <constraint firstItem="cZH-VR-IpX" firstAttribute="top" secondItem="ju9-qk-cUk" secondAttribute="bottom" constant="30" id="bsv-Y9-uCh"/>
+                <constraint firstItem="EnW-5Z-0lm" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="eBw-Zd-kqA"/>
+                <constraint firstItem="WHN-3m-Uw9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="hrn-qF-WeQ"/>
+                <constraint firstItem="WHN-3m-Uw9" firstAttribute="top" secondItem="EnW-5Z-0lm" secondAttribute="bottom" constant="40" id="wbB-vo-O1c"/>
+                <constraint firstItem="EnW-5Z-0lm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="yeb-V9-1m7"/>
+            </constraints>
+            <connections>
+                <outlet property="birthdayLabel" destination="ju9-qk-cUk" id="5JD-tZ-MV2"/>
+                <outlet property="cityLabel" destination="cZH-VR-IpX" id="i0E-Z4-eNh"/>
+                <outlet property="nameLable" destination="bah-49-JnL" id="LrS-52-trw"/>
+                <outlet property="profileImage" destination="EnW-5Z-0lm" id="vJe-UU-eQy"/>
+                <outlet property="textView" destination="WHN-3m-Uw9" id="wFx-X1-2Lj"/>
+            </connections>
+            <point key="canvasLocation" x="400.76335877862596" y="-263.38028169014086"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Maijor" width="1195" height="1352"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
