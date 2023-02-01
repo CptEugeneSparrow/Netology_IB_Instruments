@@ -22,7 +22,7 @@
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Irina Shayk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bah-49-JnL">
                     <rect key="frame" x="115" y="69" width="248" height="30"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="backgroundColor" systemColor="systemCyanColor"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="248" id="2k0-eC-oD6"/>
                         <constraint firstAttribute="height" constant="30" id="mXd-ZP-59s"/>
@@ -33,6 +33,7 @@
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 January 1986" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju9-qk-cUk">
                     <rect key="frame" x="115" y="129" width="248" height="30"/>
+                    <color key="backgroundColor" systemColor="systemGray2Color"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="2RD-no-8Aw"/>
                         <constraint firstAttribute="width" constant="248" id="56x-pi-0L5"/>
@@ -51,6 +52,7 @@
                 </textView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los Angeles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZH-VR-IpX">
                     <rect key="frame" x="115" y="189" width="248" height="30"/>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="248" id="dt7-Pi-Fcr"/>
                         <constraint firstAttribute="height" constant="30" id="pib-td-53T"/>
@@ -66,7 +68,10 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WHN-3m-Uw9" secondAttribute="trailing" constant="10" id="2Gv-IK-bJf"/>
                 <constraint firstItem="ju9-qk-cUk" firstAttribute="leading" secondItem="EnW-5Z-0lm" secondAttribute="trailing" constant="10" id="3kA-IG-s4O"/>
                 <constraint firstItem="cZH-VR-IpX" firstAttribute="leading" secondItem="EnW-5Z-0lm" secondAttribute="trailing" constant="10" id="5C1-xa-lLn"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ju9-qk-cUk" secondAttribute="trailing" constant="30" id="BOe-Lv-zta"/>
                 <constraint firstItem="bah-49-JnL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="CVu-Iw-H81"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cZH-VR-IpX" secondAttribute="trailing" constant="30" id="F56-cl-Y9R"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bah-49-JnL" secondAttribute="trailing" constant="30" id="Q1A-ka-2tN"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="WHN-3m-Uw9" secondAttribute="bottom" constant="5" id="UHi-IC-LmM"/>
                 <constraint firstItem="bah-49-JnL" firstAttribute="leading" secondItem="EnW-5Z-0lm" secondAttribute="trailing" constant="10" id="Wph-8W-Kip"/>
                 <constraint firstItem="ju9-qk-cUk" firstAttribute="top" secondItem="bah-49-JnL" secondAttribute="bottom" constant="30" id="ZWe-7o-jQk"/>
@@ -93,6 +98,15 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
