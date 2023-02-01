@@ -9,7 +9,7 @@ import UIKit
 
 class ProfileView: UIView {
 
-    // MARK: - Outlets
+    // MARK: - Outlets settings
 
     @IBOutlet weak var profileImage: UIImageView!
     
