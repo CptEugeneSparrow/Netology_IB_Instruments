@@ -19,11 +19,6 @@ final class ProfileViewController: UIViewController {
         super.loadView()
         setup()
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
 }
 
 extension ProfileViewController {
